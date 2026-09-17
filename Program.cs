@@ -27,5 +27,19 @@ if (eszakai==true)
     Fizetendo *= Eszakaidij;
 };
 
-
+Console.WriteLine("=======================================================");
+Console.WriteLine($"Név: {Nev}");
+Console.WriteLine($"Megtett táv: {Tav} km");
+Console.WriteLine($"Alapérték {Tav*kilometerdij} Ft");
 Console.WriteLine($"A fizetendő összeg: {Fizetendo} Ft");
+
+if(eszakai == true)
+{
+    Console.WriteLine("Éjszakai díj: Igen");
+}
+else
+{
+    Console.WriteLine("Éjszakai díj: Nem");
+}
+
+Console.WriteLine("=======================================================");
